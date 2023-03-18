@@ -1,18 +1,16 @@
 import styled from "styled-components";
-import MainTemplate from "../templates/MainTemplate";
 
-const MainPage = () => {
+const LoadingPage = () => {
   return (
     <Container>
-      <MainTemplate />
+      <></>
     </Container>
   );
 };
 
-export default MainPage;
+export default LoadingPage;
 
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  font-size: 10rem;
 `;

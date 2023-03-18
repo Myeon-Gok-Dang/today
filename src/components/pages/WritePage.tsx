@@ -1,18 +1,17 @@
 import styled from "styled-components";
-import MainTemplate from "../templates/MainTemplate";
+import WriteTemplate from "../templates/WriteTemplate";
 
-const MainPage = () => {
+const WritePage = () => {
   return (
     <Container>
-      <MainTemplate />
+      <WriteTemplate />
     </Container>
   );
 };
 
-export default MainPage;
+export default WritePage;
 
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  font-size: 10rem;
 `;
