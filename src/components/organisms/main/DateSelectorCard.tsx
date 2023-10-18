@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import CalendarBox from "../../moleclues/main/CalendarBox";
 import "react-calendar/dist/Calendar.css";
+import Calendar from "../../moleclues/main/Calendar";
 
 const DateSelectorCard = () => {
   return (
     <Container>
-      <CalendarBox />
+      {/* <CalendarBox /> */}
+      <Calendar />
     </Container>
   );
 };
